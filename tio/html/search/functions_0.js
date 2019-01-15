@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['tio_5fhandler_5fenable_5finsecure_5fhttp',['tio_handler_enable_insecure_http',['../tio_8h.html#a61979c658773c24cca05f2a339d91dd7',1,'tio.h']]],
+  ['tio_5fhandler_5fenable_5finsecure_5fmqtt',['tio_handler_enable_insecure_mqtt',['../tio_8h.html#af8e146d40d0b21077a0e4894d12e8c80',1,'tio.h']]],
   ['tio_5fhandler_5fget_5fauthor',['tio_handler_get_author',['../tio_8h.html#a1dab03c0c0afa6d12251ef141eb06e0c',1,'tio.h']]],
   ['tio_5fhandler_5finit',['tio_handler_init',['../tio_8h.html#aafb081be82a20ab3084d228ffdd004c0',1,'tio.h']]],
   ['tio_5fhandler_5fonboard',['tio_handler_onboard',['../tio_8h.html#ac90c76e88fcd58ea5ca169b7bae0b6dc',1,'tio.h']]],
@@ -29,6 +31,7 @@ var searchData=
   ['tio_5fhandler_5fset_5fresp_5fheader_5fbuff',['tio_handler_set_resp_header_buff',['../tio_8h.html#ac8d3d4c884feb15d8e6bfd57f6f6afd7',1,'tio.h']]],
   ['tio_5fhandler_5fset_5fstream_5fbuff',['tio_handler_set_stream_buff',['../tio_8h.html#a0f62cfd814a64e2d717fa51a8539f46e',1,'tio.h']]],
   ['tio_5fhandler_5fstart',['tio_handler_start',['../tio_8h.html#a08af97b447ad0910c8b3b0ecbd17eda4',1,'tio.h']]],
+  ['tio_5fupdater_5fenable_5finsecure_5fhttp',['tio_updater_enable_insecure_http',['../tio_8h.html#acf5ae23d5a3e3a717b5af7099ef478fe',1,'tio.h']]],
   ['tio_5fupdater_5fget_5fauthor',['tio_updater_get_author',['../tio_8h.html#a17ee67556b9c417e8b32644efb60d4ad',1,'tio.h']]],
   ['tio_5fupdater_5finit',['tio_updater_init',['../tio_8h.html#ad038dcf020d51dc153e83ca0684d32ff',1,'tio.h']]],
   ['tio_5fupdater_5fonboard',['tio_updater_onboard',['../tio_8h.html#a9b237667de37baeade88d913459def78',1,'tio.h']]],

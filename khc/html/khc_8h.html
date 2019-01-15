@@ -248,6 +248,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="khc_
 <tr class="memitem:afe54c0defe07585305e7a5c52a772b7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="khc_8h.html#a90be23875108e9a39942c3af90a6d789">khc_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="khc_8h.html#afe54c0defe07585305e7a5c52a772b7f">khc_set_cb_header</a> (<a class="el" href="structkhc.html">khc</a> *<a class="el" href="structkhc.html">khc</a>, <a class="el" href="khc_8h.html#a28da65fe4a96bed6b6ac8150b9481a20">KHC_CB_HEADER</a> cb, void *userdata)</td></tr>
 <tr class="memdesc:afe54c0defe07585305e7a5c52a772b7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set header callback.  <a href="#afe54c0defe07585305e7a5c52a772b7f">More...</a><br /></td></tr>
 <tr class="separator:afe54c0defe07585305e7a5c52a772b7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bdd7cfba271620aa0bcaadae490936b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="khc_8h.html#a9bdd7cfba271620aa0bcaadae490936b">khc_enable_insecure</a> (<a class="el" href="structkhc.html">khc</a> *<a class="el" href="structkhc.html">khc</a>, int enable_insecure)</td></tr>
+<tr class="memdesc:a9bdd7cfba271620aa0bcaadae490936b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable insecure connection.  <a href="#a9bdd7cfba271620aa0bcaadae490936b">More...</a><br /></td></tr>
+<tr class="separator:a9bdd7cfba271620aa0bcaadae490936b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa3313d6c8555ee7aedb75870992c449"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="khc_8h.html#afa3313d6c8555ee7aedb75870992c449">khc_get_status_code</a> (<a class="el" href="structkhc.html">khc</a> *<a class="el" href="structkhc.html">khc</a>)</td></tr>
 <tr class="memdesc:afa3313d6c8555ee7aedb75870992c449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get HTTP status code.  <a href="#afa3313d6c8555ee7aedb75870992c449">More...</a><br /></td></tr>
 <tr class="separator:afa3313d6c8555ee7aedb75870992c449"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -485,6 +488,43 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="khc_
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a9bdd7cfba271620aa0bcaadae490936b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bdd7cfba271620aa0bcaadae490936b">&#9670;&nbsp;</a></span>khc_enable_insecure()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void khc_enable_insecure </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structkhc.html">khc</a> *&#160;</td>
+          <td class="paramname"><em>khc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>enable_insecure</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable insecure connection. </p>
+<p>By default, khc uses secure connection. If you need to use tcp instead of ssl/tls, you need to call this method. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">khc</td><td>instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">enable_insecure</td><td>non-zero indicates enabling insecure connection. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="afa3313d6c8555ee7aedb75870992c449"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa3313d6c8555ee7aedb75870992c449">&#9670;&nbsp;</a></span>khc_get_status_code()</h2>
 
@@ -1319,7 +1359,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="khc_
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 10 2018 08:56:01 for khc by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 15 2019 08:11:17 for khc by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

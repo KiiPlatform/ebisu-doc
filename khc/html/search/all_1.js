@@ -13,6 +13,7 @@ var searchData=
   ['khc_5fcb_5fsock_5fsend',['KHC_CB_SOCK_SEND',['../khc__socket__callback_8h.html#a96345c64c6bcec1711d2ddaac43224c2',1,'khc_socket_callback.h']]],
   ['khc_5fcb_5fwrite',['KHC_CB_WRITE',['../khc_8h.html#a57e8d1b5da9a4222190c74f8fb87a304',1,'khc.h']]],
   ['khc_5fcode',['khc_code',['../khc_8h.html#a90be23875108e9a39942c3af90a6d789',1,'khc_code():&#160;khc.h'],['../khc_8h.html#a65d0cf229865208373ee2c8d2c24cbcc',1,'khc_code():&#160;khc.h']]],
+  ['khc_5fenable_5finsecure',['khc_enable_insecure',['../khc_8h.html#a9bdd7cfba271620aa0bcaadae490936b',1,'khc.h']]],
   ['khc_5ferr_5fallocation',['KHC_ERR_ALLOCATION',['../khc_8h.html#a90be23875108e9a39942c3af90a6d789a312c4dc6d68bf167f83aedc8def54cb1',1,'khc.h']]],
   ['khc_5ferr_5fheader_5fcallback',['KHC_ERR_HEADER_CALLBACK',['../khc_8h.html#a90be23875108e9a39942c3af90a6d789a87e69245b830da2d3cfee093ee5db0ee',1,'khc.h']]],
   ['khc_5ferr_5fok',['KHC_ERR_OK',['../khc_8h.html#a90be23875108e9a39942c3af90a6d789ad362084b96bd996b692883323f38a71d',1,'khc.h']]],

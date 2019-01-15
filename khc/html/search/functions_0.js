@@ -2,6 +2,7 @@ var searchData=
 [
   ['khc_5fcb_5fslist_5falloc',['khc_cb_slist_alloc',['../khc_8h.html#a4fd09852c48bd9160a7449acac61210a',1,'khc.h']]],
   ['khc_5fcb_5fslist_5ffree',['khc_cb_slist_free',['../khc_8h.html#af8ee1aa7bad924b214164a031a63bcf8',1,'khc.h']]],
+  ['khc_5fenable_5finsecure',['khc_enable_insecure',['../khc_8h.html#a9bdd7cfba271620aa0bcaadae490936b',1,'khc.h']]],
   ['khc_5fget_5fstatus_5fcode',['khc_get_status_code',['../khc_8h.html#afa3313d6c8555ee7aedb75870992c449',1,'khc.h']]],
   ['khc_5finit',['khc_init',['../khc_8h.html#a5cb75ed1f039e02286cacb8d097f233e',1,'khc.h']]],
   ['khc_5fperform',['khc_perform',['../khc_8h.html#a75fd843af7f3de58bcba2d348878becc',1,'khc.h']]],

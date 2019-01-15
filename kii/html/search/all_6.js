@@ -19,6 +19,8 @@ var searchData=
   ['kii_5fdelete_5fobject',['kii_delete_object',['../kii_8h.html#a0243b3014379f29668584d078c7a7eb2',1,'kii.h']]],
   ['kii_5fdelete_5ftopic',['kii_delete_topic',['../kii_8h.html#adb8c2b15d4e488d36eabaa91cba61b6f',1,'kii.h']]],
   ['kii_5fdownload_5fobject_5fbody',['kii_download_object_body',['../kii_8h.html#ae7dc8837d32daa841f297784a6d15499',1,'kii.h']]],
+  ['kii_5fenable_5finsecure_5fhttp',['kii_enable_insecure_http',['../kii_8h.html#a1ac5ab10b44de5397b7227e4e2aaca4e',1,'kii.h']]],
+  ['kii_5fenable_5finsecure_5fmqtt',['kii_enable_insecure_mqtt',['../kii_8h.html#a1d4b321dd8a70434bae5b07a70c14fba',1,'kii.h']]],
   ['kii_5ferr_5fallocation',['KII_ERR_ALLOCATION',['../kii_8h.html#a79eab5c5f48e03121033d6291619c7dead839e55c9df8a32740642cb33b802d9c',1,'kii.h']]],
   ['kii_5ferr_5ffail',['KII_ERR_FAIL',['../kii_8h.html#a79eab5c5f48e03121033d6291619c7dea8fc54c71516a569079c207f4de28eb41',1,'kii.h']]],
   ['kii_5ferr_5fheader_5fcallback',['KII_ERR_HEADER_CALLBACK',['../kii_8h.html#a79eab5c5f48e03121033d6291619c7dead91d57d51f1b7eeb3f29193acaddf6d9',1,'kii.h']]],

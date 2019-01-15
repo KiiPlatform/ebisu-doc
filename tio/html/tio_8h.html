@@ -261,6 +261,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a5e25dd1eddd2065edb435c3fe6072bf6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a5e25dd1eddd2065edb435c3fe6072bf6">tio_handler_set_cb_slist_resource</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, KHC_CB_SLIST_ALLOC cb_alloc, KHC_CB_SLIST_FREE cb_free, void *cb_alloc_data, void *cb_free_data)</td></tr>
 <tr class="memdesc:a5e25dd1eddd2065edb435c3fe6072bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set custom memory allocator for the linked list used to constuct request headers of HTTP.  <a href="#a5e25dd1eddd2065edb435c3fe6072bf6">More...</a><br /></td></tr>
 <tr class="separator:a5e25dd1eddd2065edb435c3fe6072bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61979c658773c24cca05f2a339d91dd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a61979c658773c24cca05f2a339d91dd7">tio_handler_enable_insecure_http</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, <a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a> enable_insecure_http)</td></tr>
+<tr class="memdesc:a61979c658773c24cca05f2a339d91dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable insecure HTTP connection.  <a href="#a61979c658773c24cca05f2a339d91dd7">More...</a><br /></td></tr>
+<tr class="separator:a61979c658773c24cca05f2a339d91dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8e146d40d0b21077a0e4894d12e8c80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#af8e146d40d0b21077a0e4894d12e8c80">tio_handler_enable_insecure_mqtt</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, <a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a> enable_insecure_mqtt)</td></tr>
+<tr class="memdesc:af8e146d40d0b21077a0e4894d12e8c80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable insecure MQTT connection.  <a href="#af8e146d40d0b21077a0e4894d12e8c80">More...</a><br /></td></tr>
+<tr class="separator:af8e146d40d0b21077a0e4894d12e8c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac90c76e88fcd58ea5ca169b7bae0b6dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#ac90c76e88fcd58ea5ca169b7bae0b6dc">tio_handler_onboard</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, const char *vendor_thing_id, const char *password, const char *thing_type, const char *firmware_version, const char *layout_position, const char *thing_properties)</td></tr>
 <tr class="memdesc:ac90c76e88fcd58ea5ca169b7bae0b6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute onboarding.  <a href="#ac90c76e88fcd58ea5ca169b7bae0b6dc">More...</a><br /></td></tr>
 <tr class="separator:ac90c76e88fcd58ea5ca169b7bae0b6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -322,6 +328,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a3504f28e60b52891322507adaec39f77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a3504f28e60b52891322507adaec39f77">tio_updater_set_cb_slist_resource</a> (<a class="el" href="structtio__updater__t.html">tio_updater_t</a> *updater, KHC_CB_SLIST_ALLOC cb_alloc, KHC_CB_SLIST_FREE cb_free, void *cb_alloc_data, void *cb_free_data)</td></tr>
 <tr class="memdesc:a3504f28e60b52891322507adaec39f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set custom memory allocator for the linked list used to constuct request headers of HTTP.  <a href="#a3504f28e60b52891322507adaec39f77">More...</a><br /></td></tr>
 <tr class="separator:a3504f28e60b52891322507adaec39f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5ae23d5a3e3a717b5af7099ef478fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#acf5ae23d5a3e3a717b5af7099ef478fe">tio_updater_enable_insecure_http</a> (<a class="el" href="structtio__updater__t.html">tio_updater_t</a> *updater, <a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a> enable_insecure_http)</td></tr>
+<tr class="memdesc:acf5ae23d5a3e3a717b5af7099ef478fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable insecure HTTP connection.  <a href="#acf5ae23d5a3e3a717b5af7099ef478fe">More...</a><br /></td></tr>
+<tr class="separator:acf5ae23d5a3e3a717b5af7099ef478fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b237667de37baeade88d913459def78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a9b237667de37baeade88d913459def78">tio_updater_onboard</a> (<a class="el" href="structtio__updater__t.html">tio_updater_t</a> *updater, const char *vendor_thing_id, const char *password, const char *thing_type, const char *firmware_version, const char *layout_position, const char *thing_properties)</td></tr>
 <tr class="memdesc:a9b237667de37baeade88d913459def78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute onboarding.  <a href="#a9b237667de37baeade88d913459def78">More...</a><br /></td></tr>
 <tr class="separator:a9b237667de37baeade88d913459def78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -687,6 +696,80 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a61979c658773c24cca05f2a339d91dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61979c658773c24cca05f2a339d91dd7">&#9670;&nbsp;</a></span>tio_handler_enable_insecure_http()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tio_handler_enable_insecure_http </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structtio__handler__t.html">tio_handler_t</a> *&#160;</td>
+          <td class="paramname"><em>handler</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a>&#160;</td>
+          <td class="paramname"><em>enable_insecure_http</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable insecure HTTP connection. </p>
+<p>HTTP over ssl/tls is used by default. If you need to use HTTP over plain tcp, you need to call this method. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">handler</td><td><a class="el" href="structtio__handler__t.html" title="Stores data/ callbacks used by tio_handler. ">tio_handler_t</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">enable_insecure_http</td><td>KII_TRUE indicates using insecure connection. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af8e146d40d0b21077a0e4894d12e8c80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8e146d40d0b21077a0e4894d12e8c80">&#9670;&nbsp;</a></span>tio_handler_enable_insecure_mqtt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tio_handler_enable_insecure_mqtt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structtio__handler__t.html">tio_handler_t</a> *&#160;</td>
+          <td class="paramname"><em>handler</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a>&#160;</td>
+          <td class="paramname"><em>enable_insecure_mqtt</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable insecure MQTT connection. </p>
+<p>MQTT over ssl/tls is used by default. If you need to use MQTT over plain tcp, you need to call this method. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">handler</td><td><a class="el" href="structtio__handler__t.html" title="Stores data/ callbacks used by tio_handler. ">tio_handler_t</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">enable_insecure_mqtt</td><td>KII_TRUE indicates using insecure connection. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a1dab03c0c0afa6d12251ef141eb06e0c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1dab03c0c0afa6d12251ef141eb06e0c">&#9670;&nbsp;</a></span>tio_handler_get_author()</h2>
 
@@ -1993,6 +2076,43 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="acf5ae23d5a3e3a717b5af7099ef478fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5ae23d5a3e3a717b5af7099ef478fe">&#9670;&nbsp;</a></span>tio_updater_enable_insecure_http()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tio_updater_enable_insecure_http </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structtio__updater__t.html">tio_updater_t</a> *&#160;</td>
+          <td class="paramname"><em>updater</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a>&#160;</td>
+          <td class="paramname"><em>enable_insecure_http</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable insecure HTTP connection. </p>
+<p>HTTP over ssl/tls is used by default. If you need to use HTTP over plain tcp, you need to call this method. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">handler</td><td><a class="el" href="structtio__handler__t.html" title="Stores data/ callbacks used by tio_handler. ">tio_handler_t</a> instance. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">enable_insecure_http</td><td>KII_TRUE indicates using insecure connection. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a17ee67556b9c417e8b32644efb60d4ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17ee67556b9c417e8b32644efb60d4ad">&#9670;&nbsp;</a></span>tio_updater_get_author()</h2>
 
@@ -2963,7 +3083,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Dec 13 2018 06:11:56 for tio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Jan 15 2019 08:11:17 for tio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

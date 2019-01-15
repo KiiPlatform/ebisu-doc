@@ -8,6 +8,8 @@ var searchData=
   ['kii_5fdelete_5fobject',['kii_delete_object',['../kii_8h.html#a0243b3014379f29668584d078c7a7eb2',1,'kii.h']]],
   ['kii_5fdelete_5ftopic',['kii_delete_topic',['../kii_8h.html#adb8c2b15d4e488d36eabaa91cba61b6f',1,'kii.h']]],
   ['kii_5fdownload_5fobject_5fbody',['kii_download_object_body',['../kii_8h.html#ae7dc8837d32daa841f297784a6d15499',1,'kii.h']]],
+  ['kii_5fenable_5finsecure_5fhttp',['kii_enable_insecure_http',['../kii_8h.html#a1ac5ab10b44de5397b7227e4e2aaca4e',1,'kii.h']]],
+  ['kii_5fenable_5finsecure_5fmqtt',['kii_enable_insecure_mqtt',['../kii_8h.html#a1d4b321dd8a70434bae5b07a70c14fba',1,'kii.h']]],
   ['kii_5fexecute_5fserver_5fcode',['kii_execute_server_code',['../kii_8h.html#a54c7ef600d31e8e1f6826dbaa2742b04',1,'kii.h']]],
   ['kii_5fget_5fetag',['kii_get_etag',['../kii_8h.html#ae8b86e712a85a3d77c98cb83d9c39116',1,'kii.h']]],
   ['kii_5fget_5fmqtt_5fendpoint',['kii_get_mqtt_endpoint',['../kii_8h.html#a9cde2654b8a652bb01bb5952faf0e538',1,'kii.h']]],
