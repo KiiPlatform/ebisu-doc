@@ -6,6 +6,7 @@ var searchData=
   ['tio_5fhandler_5fhandle_5fcommand',['tio_handler_handle_command',['../tio_8h.html#ab3144bfdd44bf57ab38602549673f777',1,'tio.h']]],
   ['tio_5fhandler_5finit',['tio_handler_init',['../tio_8h.html#aafb081be82a20ab3084d228ffdd004c0',1,'tio.h']]],
   ['tio_5fhandler_5fonboard',['tio_handler_onboard',['../tio_8h.html#ac90c76e88fcd58ea5ca169b7bae0b6dc',1,'tio.h']]],
+  ['tio_5fhandler_5fparse_5fcommand',['tio_handler_parse_command',['../tio_8h.html#a3e9882186ca2425a74163055e715de6f',1,'tio.h']]],
   ['tio_5fhandler_5fset_5fapp',['tio_handler_set_app',['../tio_8h.html#aeb2ab7fd4cac1058134ce033ded303a4',1,'tio.h']]],
   ['tio_5fhandler_5fset_5fcb_5fdelay_5fms',['tio_handler_set_cb_delay_ms',['../tio_8h.html#a9723c521f8c3c5a7ccab463dabb8dcb2',1,'tio.h']]],
   ['tio_5fhandler_5fset_5fcb_5ferr',['tio_handler_set_cb_err',['../tio_8h.html#a444a539322f2441458b09aff53bbd055',1,'tio.h']]],

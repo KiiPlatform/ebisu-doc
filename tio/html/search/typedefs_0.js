@@ -7,6 +7,7 @@ var searchData=
   ['tio_5fbool_5ft',['tio_bool_t',['../tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa',1,'tio.h']]],
   ['tio_5fcb_5faction',['TIO_CB_ACTION',['../tio_8h.html#a81ba4441e5b4745f2624f63af21aa82b',1,'tio.h']]],
   ['tio_5fcb_5ferr',['TIO_CB_ERR',['../tio_8h.html#a46609c653a4e3b97abb3034882737a72',1,'tio.h']]],
+  ['tio_5fcb_5fparsed_5faction',['TIO_CB_PARSED_ACTION',['../tio_8h.html#ac7db60b54b896fed66da89275466ec87',1,'tio.h']]],
   ['tio_5fcb_5fpush',['TIO_CB_PUSH',['../tio_8h.html#a10740fdd1b050bee2c8ee319122fd723',1,'tio.h']]],
   ['tio_5fcb_5fread',['TIO_CB_READ',['../tio_8h.html#a10e810d96e1b1e16f47b2d790f16b76c',1,'tio.h']]],
   ['tio_5fcb_5fsize',['TIO_CB_SIZE',['../tio_8h.html#a6504896214118fbff1a5b2628e5ce2bc',1,'tio.h']]],
