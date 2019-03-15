@@ -285,9 +285,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a08af97b447ad0910c8b3b0ecbd17eda4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a08af97b447ad0910c8b3b0ecbd17eda4">tio_handler_start</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, const <a class="el" href="tio_8h.html#a0c34d03833b19ecd902cc15462085eeb">tio_author_t</a> *author, <a class="el" href="tio_8h.html#aca7f0c90cee5560884d58e8c5db51dca">TIO_CB_ACTION</a> cb_action, void *userdata)</td></tr>
 <tr class="memdesc:a08af97b447ad0910c8b3b0ecbd17eda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start tio_handler task.  <a href="#a08af97b447ad0910c8b3b0ecbd17eda4">More...</a><br /></td></tr>
 <tr class="separator:a08af97b447ad0910c8b3b0ecbd17eda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3144bfdd44bf57ab38602549673f777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#ab3144bfdd44bf57ab38602549673f777">tio_handler_handle_command</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, const char *command, size_t command_length)</td></tr>
-<tr class="memdesc:ab3144bfdd44bf57ab38602549673f777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the command.  <a href="#ab3144bfdd44bf57ab38602549673f777">More...</a><br /></td></tr>
-<tr class="separator:ab3144bfdd44bf57ab38602549673f777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a171b9b6f7e3a4c12369c4b08ebacef0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a171b9b6f7e3a4c12369c4b08ebacef0e">tio_handler_handle_command</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, const char *command, size_t command_length, <a class="el" href="tio_8h.html#aca7f0c90cee5560884d58e8c5db51dca">TIO_CB_ACTION</a> cb_action, void *userdata)</td></tr>
+<tr class="memdesc:a171b9b6f7e3a4c12369c4b08ebacef0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle the command.  <a href="#a171b9b6f7e3a4c12369c4b08ebacef0e">More...</a><br /></td></tr>
+<tr class="separator:a171b9b6f7e3a4c12369c4b08ebacef0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e9882186ca2425a74163055e715de6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a3e9882186ca2425a74163055e715de6f">tio_handler_parse_command</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, const char *command, size_t command_length, <a class="el" href="tio_8h.html#ac7db60b54b896fed66da89275466ec87">TIO_CB_PARSED_ACTION</a> cb_parsed_action, void *userdata)</td></tr>
 <tr class="memdesc:a3e9882186ca2425a74163055e715de6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parse the received command.  <a href="#a3e9882186ca2425a74163055e715de6f">More...</a><br /></td></tr>
 <tr class="separator:a3e9882186ca2425a74163055e715de6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -855,8 +855,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ab3144bfdd44bf57ab38602549673f777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3144bfdd44bf57ab38602549673f777">&#9670;&nbsp;</a></span>tio_handler_handle_command()</h2>
+<a id="a171b9b6f7e3a4c12369c4b08ebacef0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a171b9b6f7e3a4c12369c4b08ebacef0e">&#9670;&nbsp;</a></span>tio_handler_handle_command()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -877,7 +877,19 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>command_length</em>&#160;</td>
+          <td class="paramname"><em>command_length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="tio_8h.html#aca7f0c90cee5560884d58e8c5db51dca">TIO_CB_ACTION</a>&#160;</td>
+          <td class="paramname"><em>cb_action</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>userdata</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -890,12 +902,14 @@ Variables</h2></td></tr>
 <p>Handle the command. </p>
 <p>Basically, your app doesn't need to use this method. Since tio_handler automatically invokes this method when it received a command then after all the TIO_CB_ACTION callbacks invoked, its respond to the command synchronously.</p>
 <p>In the case, your app needs to handle command asynchronously. Your app can receive this kind of command in the TIO_CB_PUSH callback, and then start to handle the command asynchronously. Your app should return KII_TRUE to the TIO_CB_PUSH callback to skip automatically command handling logic. When your app is ready to respond to the command, then invoke this method.</p>
-<p>When app invokes the method, TIO_CB_ACTION callback of tio_handler is invoked. Command may includes multiple actions. The callback TIO_CB_ACTION is invoked per action.</p>
+<p>When app invokes the method, TIO_CB_ACTION callback is invoked. Command may includes multiple actions. The callback TIO_CB_ACTION is invoked per action.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">handler</td><td><a class="el" href="structtio__handler__t.html" title="Stores data/ callbacks used by tio_handler. ">tio_handler_t</a> instance. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">command</td><td>received command. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">command_length</td><td>Size of command. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">cb_action</td><td>Action callback. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">userdata</td><td>Context object pointer passed to cb_action. </td></tr>
   </table>
   </dd>
 </dl>
@@ -3247,7 +3261,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Mar 15 2019 04:18:48 for tio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 15 2019 04:56:30 for tio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
