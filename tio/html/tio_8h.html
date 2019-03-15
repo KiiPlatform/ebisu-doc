@@ -89,6 +89,9 @@ Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtio__action__err__t.html">tio_action_err_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents error.  <a href="structtio__action__err__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtio__action__result__data__t.html">tio_action_result_data_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents action result data.  <a href="structtio__action__result__data__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtio__handler__t.html">tio_handler_t</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores data/ callbacks used by tio_handler.  <a href="structtio__handler__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -122,15 +125,18 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a580d816d665358dc365d6c1261c93b75"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structtio__action__err__t.html">tio_action_err_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a580d816d665358dc365d6c1261c93b75">tio_action_err_t</a></td></tr>
 <tr class="memdesc:a580d816d665358dc365d6c1261c93b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents error.  <a href="#a580d816d665358dc365d6c1261c93b75">More...</a><br /></td></tr>
 <tr class="separator:a580d816d665358dc365d6c1261c93b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a34700fcf3c6cf20347770a473583b7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structtio__action__result__data__t.html">tio_action_result_data_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a0a34700fcf3c6cf20347770a473583b7">tio_action_result_data_t</a></td></tr>
+<tr class="memdesc:a0a34700fcf3c6cf20347770a473583b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents action result data.  <a href="#a0a34700fcf3c6cf20347770a473583b7">More...</a><br /></td></tr>
+<tr class="separator:a0a34700fcf3c6cf20347770a473583b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6504896214118fbff1a5b2628e5ce2bc"><td class="memItemLeft" align="right" valign="top">typedef size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a6504896214118fbff1a5b2628e5ce2bc">TIO_CB_SIZE</a>) (void *userdata)</td></tr>
 <tr class="memdesc:a6504896214118fbff1a5b2628e5ce2bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback asks for size of the state to be uploaded.  <a href="#a6504896214118fbff1a5b2628e5ce2bc">More...</a><br /></td></tr>
 <tr class="separator:a6504896214118fbff1a5b2628e5ce2bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10e810d96e1b1e16f47b2d790f16b76c"><td class="memItemLeft" align="right" valign="top">typedef size_t(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a10e810d96e1b1e16f47b2d790f16b76c">TIO_CB_READ</a>) (char *buffer, size_t size, void *userdata)</td></tr>
 <tr class="memdesc:a10e810d96e1b1e16f47b2d790f16b76c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback reads state.  <a href="#a10e810d96e1b1e16f47b2d790f16b76c">More...</a><br /></td></tr>
 <tr class="separator:a10e810d96e1b1e16f47b2d790f16b76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81ba4441e5b4745f2624f63af21aa82b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a81ba4441e5b4745f2624f63af21aa82b">TIO_CB_ACTION</a>) (<a class="el" href="structtio__action__t.html">tio_action_t</a> *action, <a class="el" href="structtio__action__err__t.html">tio_action_err_t</a> *err, void *userdata)</td></tr>
-<tr class="memdesc:a81ba4441e5b4745f2624f63af21aa82b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback handles action.  <a href="#a81ba4441e5b4745f2624f63af21aa82b">More...</a><br /></td></tr>
-<tr class="separator:a81ba4441e5b4745f2624f63af21aa82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca7f0c90cee5560884d58e8c5db51dca"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#aca7f0c90cee5560884d58e8c5db51dca">TIO_CB_ACTION</a>) (<a class="el" href="structtio__action__t.html">tio_action_t</a> *action, <a class="el" href="structtio__action__err__t.html">tio_action_err_t</a> *err, <a class="el" href="structtio__action__result__data__t.html">tio_action_result_data_t</a> *data, void *userdata)</td></tr>
+<tr class="memdesc:aca7f0c90cee5560884d58e8c5db51dca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback handles action.  <a href="#aca7f0c90cee5560884d58e8c5db51dca">More...</a><br /></td></tr>
+<tr class="separator:aca7f0c90cee5560884d58e8c5db51dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46609c653a4e3b97abb3034882737a72"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a46609c653a4e3b97abb3034882737a72">TIO_CB_ERR</a>) (<a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a> code, const char *err_message, void *userdata)</td></tr>
 <tr class="memdesc:a46609c653a4e3b97abb3034882737a72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback propagates error information.  <a href="#a46609c653a4e3b97abb3034882737a72">More...</a><br /></td></tr>
 <tr class="separator:a46609c653a4e3b97abb3034882737a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -276,7 +282,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a1dab03c0c0afa6d12251ef141eb06e0c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="tio_8h.html#a0c34d03833b19ecd902cc15462085eeb">tio_author_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a1dab03c0c0afa6d12251ef141eb06e0c">tio_handler_get_author</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler)</td></tr>
 <tr class="memdesc:a1dab03c0c0afa6d12251ef141eb06e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get author.  <a href="#a1dab03c0c0afa6d12251ef141eb06e0c">More...</a><br /></td></tr>
 <tr class="separator:a1dab03c0c0afa6d12251ef141eb06e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08af97b447ad0910c8b3b0ecbd17eda4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a08af97b447ad0910c8b3b0ecbd17eda4">tio_handler_start</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, const <a class="el" href="tio_8h.html#a0c34d03833b19ecd902cc15462085eeb">tio_author_t</a> *author, <a class="el" href="tio_8h.html#a81ba4441e5b4745f2624f63af21aa82b">TIO_CB_ACTION</a> cb_action, void *userdata)</td></tr>
+<tr class="memitem:a08af97b447ad0910c8b3b0ecbd17eda4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#a08af97b447ad0910c8b3b0ecbd17eda4">tio_handler_start</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, const <a class="el" href="tio_8h.html#a0c34d03833b19ecd902cc15462085eeb">tio_author_t</a> *author, <a class="el" href="tio_8h.html#aca7f0c90cee5560884d58e8c5db51dca">TIO_CB_ACTION</a> cb_action, void *userdata)</td></tr>
 <tr class="memdesc:a08af97b447ad0910c8b3b0ecbd17eda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start tio_handler task.  <a href="#a08af97b447ad0910c8b3b0ecbd17eda4">More...</a><br /></td></tr>
 <tr class="separator:a08af97b447ad0910c8b3b0ecbd17eda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3144bfdd44bf57ab38602549673f777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="tio_8h.html#a1ae89481ebe95aa79ccca3b756d24f8b">tio_code_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="tio_8h.html#ab3144bfdd44bf57ab38602549673f777">tio_handler_handle_command</a> (<a class="el" href="structtio__handler__t.html">tio_handler_t</a> *handler, const char *command, size_t command_length)</td></tr>
@@ -373,6 +379,22 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a0a34700fcf3c6cf20347770a473583b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a34700fcf3c6cf20347770a473583b7">&#9670;&nbsp;</a></span>tio_action_result_data_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structtio__action__result__data__t.html">tio_action_result_data_t</a>  <a class="el" href="structtio__action__result__data__t.html">tio_action_result_data_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Represents action result data. </p>
+
+</div>
+</div>
 <a id="a5ed17546ce4d38bb2c7fea3150be3f4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5ed17546ce4d38bb2c7fea3150be3f4b">&#9670;&nbsp;</a></span>tio_action_t</h2>
 
@@ -437,14 +459,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a81ba4441e5b4745f2624f63af21aa82b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81ba4441e5b4745f2624f63af21aa82b">&#9670;&nbsp;</a></span>TIO_CB_ACTION</h2>
+<a id="aca7f0c90cee5560884d58e8c5db51dca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca7f0c90cee5560884d58e8c5db51dca">&#9670;&nbsp;</a></span>TIO_CB_ACTION</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a>(* TIO_CB_ACTION) (<a class="el" href="structtio__action__t.html">tio_action_t</a> *action, <a class="el" href="structtio__action__err__t.html">tio_action_err_t</a> *err, void *userdata)</td>
+          <td class="memname">typedef <a class="el" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a>(* TIO_CB_ACTION) (<a class="el" href="structtio__action__t.html">tio_action_t</a> *action, <a class="el" href="structtio__action__err__t.html">tio_action_err_t</a> *err, <a class="el" href="structtio__action__result__data__t.html">tio_action_result_data_t</a> *data, void *userdata)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -454,7 +476,8 @@ Variables</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">action</td><td>Includes alias_name, action_name and action value. </td></tr>
-    <tr><td class="paramdir">[out]</td><td class="paramname">err</td><td>Implementation can set error when the given action is failed to execute. Reported error is recoreded in cloud. When succeeded, the argument can be ignored. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">err</td><td>Implementation can set error when the given action is failed to execute. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">data</td><td>Implementation can set data as json string. Reported error is recoreded in cloud. When succeeded, the argument can be ignored. </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">userdata</td><td>Context object pointer given to <a class="el" href="tio_8h.html#a08af97b447ad0910c8b3b0ecbd17eda4" title="Start tio_handler task. ">tio_handler_start()</a>. </td></tr>
   </table>
   </dd>
@@ -2186,7 +2209,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="tio_8h.html#a81ba4441e5b4745f2624f63af21aa82b">TIO_CB_ACTION</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="tio_8h.html#aca7f0c90cee5560884d58e8c5db51dca">TIO_CB_ACTION</a>&#160;</td>
           <td class="paramname"><em>cb_action</em>, </td>
         </tr>
         <tr>
@@ -3224,7 +3247,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 12 2019 08:12:35 for tio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 15 2019 04:18:48 for tio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
