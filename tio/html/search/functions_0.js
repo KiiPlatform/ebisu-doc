@@ -3,7 +3,7 @@ var searchData=
   ['tio_5fhandler_5fenable_5finsecure_5fhttp',['tio_handler_enable_insecure_http',['../tio_8h.html#a61979c658773c24cca05f2a339d91dd7',1,'tio.h']]],
   ['tio_5fhandler_5fenable_5finsecure_5fmqtt',['tio_handler_enable_insecure_mqtt',['../tio_8h.html#af8e146d40d0b21077a0e4894d12e8c80',1,'tio.h']]],
   ['tio_5fhandler_5fget_5fauthor',['tio_handler_get_author',['../tio_8h.html#a1dab03c0c0afa6d12251ef141eb06e0c',1,'tio.h']]],
-  ['tio_5fhandler_5fhandle_5fcommand',['tio_handler_handle_command',['../tio_8h.html#ab3144bfdd44bf57ab38602549673f777',1,'tio.h']]],
+  ['tio_5fhandler_5fhandle_5fcommand',['tio_handler_handle_command',['../tio_8h.html#a171b9b6f7e3a4c12369c4b08ebacef0e',1,'tio.h']]],
   ['tio_5fhandler_5finit',['tio_handler_init',['../tio_8h.html#aafb081be82a20ab3084d228ffdd004c0',1,'tio.h']]],
   ['tio_5fhandler_5fonboard',['tio_handler_onboard',['../tio_8h.html#ac90c76e88fcd58ea5ca169b7bae0b6dc',1,'tio.h']]],
   ['tio_5fhandler_5fparse_5fcommand',['tio_handler_parse_command',['../tio_8h.html#a3e9882186ca2425a74163055e715de6f',1,'tio.h']]],

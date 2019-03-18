@@ -121,7 +121,7 @@ $(function() {
 <div class="fragment"><div class="line"><a class="code" href="tio_8h.html#a10a17b6e74dbbec58cd4092febb5d31f">tio_handler_set_mqtt_to_sock_recv</a>(handler, 15);</div><div class="line"><a class="code" href="tio_8h.html#a1080cf664e0cfa75a8fa39d93af40b0d">tio_handler_set_mqtt_to_sock_send</a>(handler, 15);</div><div class="line"><a class="code" href="tio_8h.html#a5f1e28a31ad4976fc142b6b9853fafa4">tio_handler_set_keep_alive_interval</a>(handler, 300);</div></div><!-- fragment --><h3>Action callback</h3>
 <p>Action callback is called when the IoT device receives remote control command. You can implement IoT device specific control in the callback such as turn on/ off devices or changes level of actuators, etc.</p>
 <p>Action callback signature:</p>
-<div class="fragment"><div class="line"><span class="keyword">typedef</span> <a class="code" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a> (*<a class="code" href="tio_8h.html#a81ba4441e5b4745f2624f63af21aa82b">TIO_CB_ACTION</a>)(</div><div class="line">    <a class="code" href="structtio__action__t.html">tio_action_t</a>* action,</div><div class="line">    <a class="code" href="structtio__action__err__t.html">tio_action_err_t</a>* err,</div><div class="line">    <span class="keywordtype">void</span>* userdata);</div></div><!-- fragment --><ul>
+<div class="fragment"><div class="line"><span class="keyword">typedef</span> <a class="code" href="tio_8h.html#ab308d3aa09bdc42afa0175ca19f8faaa">tio_bool_t</a> (*<a class="code" href="tio_8h.html#aca7f0c90cee5560884d58e8c5db51dca">TIO_CB_ACTION</a>)(</div><div class="line">    <a class="code" href="structtio__action__t.html">tio_action_t</a>* action,</div><div class="line">    <a class="code" href="structtio__action__err__t.html">tio_action_err_t</a>* err,</div><div class="line">    <span class="keywordtype">void</span>* userdata);</div></div><!-- fragment --><ul>
 <li><code><a class="el" href="structtio__action__t.html#a412290b7cbd2cd3838f66420ab1ba187" title="Name of the alias. You need to use alias_length field to determine the length. It might not be null t...">tio_action_t.alias</a></code> is a string represents the alias of the trait which represents set of capabilities equipped.</li>
 </ul>
 <p>eg.) "AirConditioner", "LevelMonitor", etc.</p>
@@ -288,7 +288,7 @@ $(function() {
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 12 2019 08:12:35 for tio by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Mar 18 2019 08:14:51 for tio by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
