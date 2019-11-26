@@ -56,7 +56,6 @@ var searchData=
   ['kii_5fti_5fput_5fbulk_5fstates',['kii_ti_put_bulk_states',['../kii_8h.html#a96088b3f8df966a766f98c979ca6a6de',1,'kii.h']]],
   ['kii_5fti_5fput_5ffirmware_5fversion',['kii_ti_put_firmware_version',['../kii_8h.html#aaab1b9126bf3ef38f62f35b064846d1c',1,'kii.h']]],
   ['kii_5fti_5fput_5fstate',['kii_ti_put_state',['../kii_8h.html#a6e04e62002ba5192abf39152c499a627',1,'kii.h']]],
-  ['kii_5fti_5fput_5fthing_5ftype',['kii_ti_put_thing_type',['../kii_8h.html#a3b4dfd79184e2d6781a644396ad8aff3',1,'kii.h']]],
   ['kii_5funsubscribe_5fbucket',['kii_unsubscribe_bucket',['../kii_8h.html#a59e62cdf94dc9a34a75f40ce24b9ab19',1,'kii.h']]],
   ['kii_5funsubscribe_5ftopic',['kii_unsubscribe_topic',['../kii_8h.html#afebea79385b02f120416efb5798d57aa',1,'kii.h']]],
   ['kii_5fupload_5fobject_5fbody',['kii_upload_object_body',['../kii_8h.html#a818b618ecdcb5fc08dbad0462d37f639',1,'kii.h']]]
